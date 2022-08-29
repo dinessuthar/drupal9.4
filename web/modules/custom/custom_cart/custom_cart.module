@@ -1,0 +1,12 @@
+<?php
+
+// Alter the price in cart & order.
+function custom_cart_commerce_cart_line_item_refresh($line_item, $order_wrapper){
+
+    echo 'dinesh'; die;
+    $price = 100; //1 dollar
+    $line_item->commerce_unit_price[LANGUAGE_NONE]['0']['amount'] = $price;
+    // Alter the base_price component.
+    $line_item->commerce_unit_price[LANGUAGE_NONE]['0']['data']['components']['0']['price']['amount'] = $price;
+
+}

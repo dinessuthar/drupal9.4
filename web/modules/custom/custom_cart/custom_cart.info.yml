@@ -1,0 +1,8 @@
+name: Custom Cart
+type: module
+description: 'Custom Cart'
+package: Custom
+core_version_requirement: ^9.2 || ^10
+version: '9.4'
+project: 'Custom cart'
+datestamp: 1660137907
